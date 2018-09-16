@@ -69,7 +69,6 @@ for (let i = 0; i < panel.length; i++) {
     })
 }
 
-
 const check = () => {
     yourChair.innerHTML = chair_summary[0].innerText;
     chair_summary[1].innerText === "Wybierz kolor" ? colorChair.innerHTML = "" : colorChair.innerHTML = chair_summary[1].innerHTML;
