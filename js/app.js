@@ -78,13 +78,13 @@ const check = () => {
 
     if (yourChair.innerHTML === 'Clair') {
         yourChairValue.innerHTML = '150';
-        summaryImg.setAttribute('src', '/images/red_chair.png');
+        summaryImg.setAttribute('src', "./images/red_chair.png");
     } else if (yourChair.innerHTML === 'Selena') {
         yourChairValue.innerHTML = '200';
-        summaryImg.setAttribute('src', '/images/black_chair.png');
+        summaryImg.setAttribute('src', "./images/black_chair.png");
     } else if (yourChair.innerHTML === 'Margarita') {
         yourChairValue.innerHTML = '250';
-        summaryImg.setAttribute('src', '/images/orange_chair.png');
+        summaryImg.setAttribute('src', "./images/orange_chair.png");
     }
 
     if (pattern.innerHTML === 'Skóra') {
